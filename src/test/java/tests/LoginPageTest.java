@@ -13,7 +13,7 @@ public class LoginPageTest extends BaseTest {
         app.loginPage().writeIntoUsernameInputField("admin");
         app.loginPage().writeIntoPasswordInputField("parola123!");
         app.loginPage().clickLoginButton();
-        app.dashboardPage().verifyLogoutButtonIsPresent();
+        app.dashboardPage().verifyLogoutButtonIsPresent() ;
     }
 
     @Test
